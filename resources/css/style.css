@@ -44,6 +44,10 @@ nav ul{
   justify-content: space-around;
 }
 
+a{
+
+}
+
 /*header part over*/
 
 #body{
@@ -81,8 +85,9 @@ nav ul{
 
 #featuredtea{
   width: 1000px;
-  margin-top: 70px;
   display:inline-block;
+  padding-top: 120px;
+ margin-top: -50px;
 }
 
 .flex-image{
@@ -159,6 +164,7 @@ span{
 
 /*footer part over*/
 .copy p{
+  padding-top: 20px;
   font-size: 16px;
  text-align: left;
 }
