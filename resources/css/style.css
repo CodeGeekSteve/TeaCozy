@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   width: 100%;
   margin-left: -8px;
   margin-top:-8px;
@@ -43,25 +43,28 @@ nav ul{
   justify-content: space-around;
 }
 
+/*header part over*/
+
 #body{
     font-size: 22px;
 }
 
 #mission{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  background-position: bottom;
+  background-position: top;
+  background-repeat: no-repeat;
   text-align: center;
-  height:700px;
+  padding-top: 70px;
+  height: 700px;
   width: 1200px;
   text-transform: capitalize;
 }
 
-.flexer{
+.flex-cover{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  padding-top: 72px;
 }
 
 .text-wrapper {
@@ -72,13 +75,15 @@ nav ul{
   width: 1200px;
 }
 
+/*top part over*/
+
 #featuredtea{
   width: 1000px;
   margin-top: 70px;
   display:inline-block;
 }
 
-.container{
+.flex-image{
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -105,4 +110,10 @@ nav ul{
 .image{
   justify-content: flex-start;
   margin: 0 15px;
+}
+
+/*mid part over*/
+
+{
+
 }
