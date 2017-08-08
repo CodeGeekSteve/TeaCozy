@@ -8,17 +8,24 @@
 }
 
 #header{
-  height: auto;
+  height: 72px;
   border-bottom: 1px solid seashell;
   display: flex;
   font-size: 22px;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  z-index: 5;
+  z-index: 1;
   width: 100%;
   margin-left: -8px;
   margin-top:-8px;
+}
+
+h2,
+h3,
+h4 {
+margin: 0;
+padding: 10px;
 }
 
 #header img{
@@ -37,6 +44,7 @@ nav ul{
 }
 
 #body{
+    font-size: 22px;
 }
 
 #mission{
@@ -46,19 +54,20 @@ nav ul{
   height:700px;
   width: 1200px;
   text-transform: capitalize;
-
 }
 
 .flexer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+  padding-top: 72px;
 }
 
 .text-wrapper {
   position: absolute;
   text-align: center;
-  top: 300px;
+  top: 365px;
   margin: auto;
   width: 1200px;
 }
